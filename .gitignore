@@ -1,2 +1,4 @@
 ffmpeg/
 ffmpeg_linux/
+.gitignore
+config.py
