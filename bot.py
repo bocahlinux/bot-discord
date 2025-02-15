@@ -28,7 +28,7 @@ ytdl_format_options={
 ffmpeg_options = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
     'options': '-vn -timeout 500 -bufsize 64k',
-    'executable': 'c:\\ffmpeg\\bin\\ffmpeg.exe'
+    'executable': './ffmpeg_linux/bin/ffmpeg'
 }
 
 ytdl = youtube_dl.YoutubeDL(ytdl_format_options)
